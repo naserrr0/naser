@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Upload image</title>
+    </head>
+    <body>
+        <from action="Upload.php"
+        method="POST"
+        enctype="multipart/from-data">
+        <label for="image">Choose an image:</label>
+        <input type="file" name="image" id="image" required>
+        <input type="text" name="name" placeholder="Enter image name" required>
+        <button type="submit">Upload</button>
+        </from>
+        
+    </body>
+</html>
